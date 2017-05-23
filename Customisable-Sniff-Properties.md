@@ -45,6 +45,7 @@ For more information about changing sniff behavior by customising your ruleset, 
     * [Squiz.PHP.DiscouragedFunctions](#squizphpdiscouragedfunctions)
     * [Squiz.PHP.ForbiddenFunctions](#squizphpforbiddenfunctions)
     * [Squiz.Strings.ConcatenationSpacing](#squizstringsconcatenationspacing)
+    * [Squiz.Strings.DoubleQuoteUsage](#squizstringsdoublequoteusage)
     * [Squiz.WhiteSpace.FunctionSpacing](#squizwhitespacefunctionspacing)
     * [Squiz.WhiteSpace.ObjectOperatorSpacing](#squizwhitespaceobjectoperatorspacing)
     * [Squiz.WhiteSpace.OperatorSpacing](#squizwhitespaceoperatorspacing)
@@ -1017,6 +1018,10 @@ Sometimes long concatenation statements are broken over multiple lines to work w
     </properties>
 </rule>
 ```
+
+### Squiz.Strings.DoubleQuoteUsage
+
+This sniff enforces only using single quotes around string literals.  By default, this sniff also does not allow for double quoted strings to contain variables either.
 
 ### Squiz.WhiteSpace.FunctionSpacing
 
